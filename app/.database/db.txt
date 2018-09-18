@@ -1,0 +1,7 @@
+// DB DO TESTÓW
+
+CREATE TABLE test(
+  title VARCHAR(30) PRIMARY KEY NOT NULL, 
+  body VARCHAR(255) NOT NULL,
+  text VARCHAR(30) NOT NULL
+  );

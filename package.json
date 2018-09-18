@@ -1,0 +1,18 @@
+{
+  "name": "rwd-stronyinternetowe-3",
+  "version": "1.0.0",
+  "description": "RWD Strony Internetowe with Node.js & MySql",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./app/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pawel Gozdz",
+  "license": "ISC",
+  "dependencies": {
+    "mysql": "^2.16.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
