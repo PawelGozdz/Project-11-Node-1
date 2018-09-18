@@ -21,6 +21,12 @@ const server = {};
 
 // TESTING
 // TODO
+ /**
+  * Argumenty -- plik / baza danych
+  * ARG #1 - nazwa folderu / nazwa tabeli
+  * ARG #2 - nazwa pliku / primary key w tabeli
+  * ARG #3 - obiekt z 'title' oraz 'text' / całość jako JSON string w kolumnie 'body' oraz 'text' z obiektu jako tekst w kolumnie 'text'
+  */
 // _data.delete('test', 'The Killers56', err => {
 //   console.log('Taki błąd', err);
 // });
@@ -31,7 +37,7 @@ const server = {};
 //     console.log('Taki był błąd, ', err);
 //     console.log('Takie dane, ', data);
 //   });
-// _data.create('test', 'Metallica', {'title': 'Fuel', 'text': 'Some text'}, err => {
+// _data.create('test', 'Metallica2', {'title': 'Master of puppets', 'text': 'Jakiś tekst'}, err => {
 //   console.log('Taki był błąd, ', err);
 // });
 // TESTING END
