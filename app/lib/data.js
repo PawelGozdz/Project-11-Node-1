@@ -23,7 +23,7 @@ const lib = {};
 // Definiowanie base directory dla folderu data
 lib.baseDir = path.join(__dirname, './../.data/');
 
-
+console.log(lib);
 // Zapisywanie danych do pliku
 lib.create = (dir, file, data, callback) => {
   // Konwertowanie do stringa zeby zapisać w pliku
