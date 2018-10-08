@@ -13,8 +13,6 @@ const app = {};
 app.init = function() {
   // Uruchamianie servera
   server.init();
-  // Uruchamianie workers
-  // workers.init();
 
 };
 
